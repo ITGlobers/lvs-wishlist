@@ -1,0 +1,33 @@
+{
+  "wish-list": {
+    "component": "WishList",
+    "render": "client",
+    "allowed": "*"
+  },
+  "search-wish-list": {
+    "component": "FindWishList",
+    "render": "client",
+    "allowed": "*"
+  },
+  "wish-share": {
+    "component": "WishShare",
+    "render": "client",
+    "allowed": "*"
+  },
+  "total-price": {
+    "component": "TotalPrice",
+    "render": "client",
+    "allowed": "*",
+    "composition": "children"
+  },
+  "listening-to-wishlist": {
+    "component": "ListeningToWishlist",
+    "composition": "children"
+  },
+  "add-message": {
+    "component": "AddMessage"
+  },
+  "wishlist-selector": {
+    "component": "WishlistSelector"
+  }
+}

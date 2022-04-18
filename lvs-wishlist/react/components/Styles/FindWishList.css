@@ -1,0 +1,28 @@
+.container{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.button:hover{
+  color          : #fff;
+  text-decoration: none;
+  background     : #e25935;
+}
+.text_box:focus{
+  border-color: #ffd03c;
+}
+.text{
+  font-size: 12px !important;
+}
+.sub_title{
+  font-size: 14px !important;
+}
+@media (max-width: 1024px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+}
